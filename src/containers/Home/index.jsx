@@ -3,7 +3,7 @@ import { Container } from './styles'
 function Home() {
   return (
     <Container>
-      
+      <h1>Home</h1>
     </Container>
   )
 }

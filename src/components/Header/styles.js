@@ -30,17 +30,25 @@ export const NaviLink = styled.div`
   li {
     color: ${theme.colors.white};
     cursor: pointer;
-    font-size: 0.80rem;
+    font-size: 0.8rem;
   }
 `
 
 export const User = styled.div`
   display: flex;
+  gap: 1.5rem;
+  font-size: 2.5rem;
+  color: ${theme.colors.white};
   align-items: center;
-  gap: 15px;
   cursor: pointer;
+  div {
+    display: flex;
+    gap: 0.125rem;
+    align-items: center;
+  }
 
   p {
-    color: ${theme.colors.white};
+    font-size: 1.2rem;
+    font-weight: 400;
   }
 `

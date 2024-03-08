@@ -1,10 +1,10 @@
-import Header from './components/Header'
 import Home from './containers/Home'
+import { GlobalStyles } from './styles/GlobalStyles'
 
 function App() {
   return (
     <>
-      <Header />
+      <GlobalStyles />
       <Home />
     </>
   )
